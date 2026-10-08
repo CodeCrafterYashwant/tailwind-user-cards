@@ -1,5 +1,5 @@
 let input = document.querySelector('input')
-let val  = input.value || 1
+let val  = input.value || 5
 function featchusers(num){
     document.querySelector('.main').innerHTML = ''
     url = `https://randomuser.me/api/?results=${num}`
